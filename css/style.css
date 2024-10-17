@@ -420,7 +420,16 @@
 
 /* Order Content */
 .main .body .order-content {
-    margin-top: 12px;
+    margin-top: 24px;
+}
+
+.main .body .order-content .menu-title {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #a6192e;
+    margin-bottom: 24px;
 }
 
 .main .body .order-content ul {
@@ -488,6 +497,13 @@
     padding:10px;
 }
 
+.main .body  .order-content .order-list .order-box .order-text .promotion-price {
+    color:#25282d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px ;
+}
+
 .main .body .order-content .order-list .order-box .order-text .order-name {
     font-size: 16px;
     font-weight: 700;
@@ -520,7 +536,7 @@
       justify-content: center;
       align-items: center;
       margin-top: 24px;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
 }
 
 .main .body .order-content .button a {
@@ -579,8 +595,9 @@
     border: 1px solid #e0e0e0;
     cursor: pointer;
     overflow: hidden;
-    margin-top: 72px;
+    margin-bottom: 40px;
 }
+
 
 .main .body .order-content .promotion-box .order-image {
     margin-bottom: 5px;
@@ -603,8 +620,34 @@
     padding:10px;
 }
 
+.main .body .order-content .promotion-box .order-text .promotion-price {
+    color:#25282d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px ;
+}
+
+.main .body .order-content .promotion-box .order-text .menu-list {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    margin-top: 10px;
+}
+
+.main .body .order-content .promotion-box .order-text .menu-list li {
+    font-size: 12px;
+    color:#bdbdbd;
+    border-bottom: none;
+    margin-right: 0;
+}
+
 .main .body .order-content .promotion-box .order-text .promotion-name {
-    color: #4f4f4f;
+    color: #a6192e;
+    font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
@@ -647,6 +690,13 @@
     justify-content: center;
 }
 
+.main .body .order-content .line {
+    content: "";
+    height: 1px;
+    background-color: #c3c0c0;
+    width:80%;
+}
+
 .main .body .order-content .order-button button {
     color: #fff;
     padding: 10px 48.5px 14px;
@@ -666,7 +716,6 @@
 
 /* Pagination */
 .main .body .pagination-cover {
-    margin-top: 40px;
     margin-bottom: 80px;
 }
 
@@ -769,4 +818,327 @@
     transition: width 0.3s;
 }
 /* End Menu Content */
+
+/* Store */
+.main .body .store-label {
+    font-size: 16px;
+    color:#a6192e;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Store Function */
+
+.main .body .store-function {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main .body .store-function .select-store {
+    outline: none;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.main .body .store-function .select-store select {
+    padding:10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    outline: none;
+    width:100%;
+    background-color: #ffffffd7;
+}
+
+.main .body .store-function .select-button {
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #a6192e;
+    border:none;
+}
+
+.main .body .store-function .select-button i {
+    font-size: 14px;
+    margin-right: 10px;
+    color:white;
+}
+
+.main .body .store-function .select-button .select-text {
+    font-size: 12px;
+    color:white;
+}
+
+/* End Store Function */
+
+.main .body #map {
+    height: 400px; /* Chiều cao của bản đồ */
+    width: 100%; 
+    
+}
+
+/* Store List */
+.main .body .store-list {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main .body .store-list .store {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.main .body .store-list .store .store-title {
+    color:#a6192e;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main .body .store-list .store .store-address {
+    font-size: 16px;
+    color:#888888;
+}
+
+.main .body .store-list .store ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main .body .store-list .store ul li {
+    margin-right: 10px;
+}
+
+.main .body .store-list .store .store-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .body .store-list .store .store-bottom .store-left .store-time {
+    font-size: 16px;
+    color:#888888;
+}
+
+.main .body .store-list .store .store-bottom .store-left .store-phone {
+    font-size: 16px;
+    color:#888888;
+}
+
+.main .body .store-list .store .store-bottom button {
+    display: flex;
+    border:none;
+    align-items: center;
+    background-color: #a6192e;
+    padding:10px;
+    border-radius: 20px;
+    color:white;
+}
+
+.main .body .store-list .store .store-bottom button i {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.main .body .store-list .store .store-bottom button .context {
+    font-size: 14px;
+}
+/* End Store List */
+  
+/* End Store */
+
+/* Party */
+.main .body .party-top {
+    margin-top: 30px;
+}
+.main .body .party-top .party-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #a6192e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main .body .party-top .party-header-desc {
+    font-size: 16px;
+    text-align: center;
+}
+
+.main .body .party-top ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.main .body .party-top .order-button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.main .body .party-top .order-button button {
+    padding:10px 30px;
+    border:none;
+    background-color: #a6192e;
+    color:white;
+    border-radius: 20px;
+}
+
+.main .body .party-middle {
+    margin-top: 40px;
+}
+
+.main .body .party-middle .menu-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color:#a6192e;
+    font-weight: 700;
+}
+
+.main .body .party-last {
+    border-top: 1px solid #f2f2f2;
+    padding:32px 16px;
+}
+
+.main .body .party-last .party-title {
+    text-align: center;
+    font-size: 24px;
+    color:#a6192e;
+    font-weight: 700;
+}
+
+.main .body .party-last .party-image {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.main .body .party-last .party-image img {
+    width:100%;
+    object-fit: cover;
+}
+
+.main .body .party-last form {
+    margin-top: 24px;
+}
+
+.main .body .party-last form .information {
+    display:flex;
+    grid-gap:32px;
+    gap:32px;
+}
+
+.main .body .party-last form .information .information-item{
+    flex-basis: 50%;
+    padding: 16px 32px 32px;
+    border: 1px solid #f2f2f2;
+    border-radius: 8px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.main .body .party-last form .information .information-item h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .005em;
+    color: #a6192e;
+    margin-bottom: 16px;
+}
+
+.main .body .party-last form .information .information-item .form-style .form-group {
+    margin-bottom: 1rem;
+}
+
+.main .body .party-last form .information .information-item .form-style label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .0025em;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.main .body .party-last form .information .information-item .form-style .form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+}
+
+.main .body .party-last form .information .information-item .form-style .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.main .body .party-last form .information .information-item .form-style .list-unstyled li .custom-control {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.main .body .party-last form .information .information-item .form-style .list-unstyled li .custom-control input{
+    cursor: pointer;
+    width: 1rem;
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.main .body .party-last form .information .information-item .form-style .list-unstyled li .custom-control label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: .0025em;
+    color: #333;
+}
+
+.main .body .party-last form .information .information-item .form-style .select-date-group {
+    display: flex;
+    column-gap: 13px;
+}
+
+.main .body .party-last form .information .information-item .form-style .org-custom-select {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    color: #bdbdbd;
+    padding:12px 16px;
+    padding-right: 40px;
+    outline: none;
+    width:100%;
+}
+
+.main .body .party-last form .button-submit {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.main .body .party-last form button {
+    padding:10px 30px;
+    border:none;
+    background-color: #a6192e;
+    color:white;
+    border-radius: 20px;
+}
+
+
+/* End Party */
 
